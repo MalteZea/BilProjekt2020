@@ -1,12 +1,21 @@
-/* public class Speed {
+ public class Speed {
 
-    int currentSpeed = 0;
+     Pressure pressure;
 
-
-    public static int currentSpeed(){
-        currentSpeed = 0;
-        while (AppliedPressure.Pressure != NON)
-        System.out.println(currentSpeed + " km/t");
-        return currentSpeed;
-    }
-} */
+    /* public void acceleration() {
+         switch (pressure) {
+             case NON -> {
+                 currentSpeed += 0;
+                 break;
+             }
+             case LIGHT -> {
+                 currentSpeed += 1;
+                 break;
+             }
+             case HEAVY -> {
+                 currentSpeed += 2;
+                 break;
+             }
+         }
+     }*/
+ }

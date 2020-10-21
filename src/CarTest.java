@@ -37,21 +37,23 @@ public class CarTest {
 
         //test speeder. Applying pressure to the speeder, increases speed.
         System.out.println("Test 5. Hastigheden skal øges.");
-        //testSpeederGentlePressure();
+        testSpeederGentlePressure();
+        System.out.println("\n");
 
         System.out.println("Test ... Bilen starter standart funktioner.");
     }
 
-  /*  private static void testSpeederGentlePressure() {
+    private static void testSpeederGentlePressure() {
         Car malteCar = new Car();
         CarKey key = new CarKey("password1234");
         malteCar.turnEngineOn(key);
-        malteCar.speeder.AppliedPressure(LIGHT);
-        System.out.println("Den nuværende hastighed er " + Speed.currentSpeed());
+        malteCar.lightPressure();
+        malteCar.acceleration();
+        System.out.println("Den nuværende hastighed er " + malteCar.currentSpeed);
         if (malteCar.currentSpeed > 0) {
             System.out.println("Test passed");
         } else System.out.println("Test failed");
-    } */
+    }
 
 
     private static void testStartCarWithCorrectKey() {
